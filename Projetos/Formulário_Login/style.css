@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat";
+    color: #000000;
+    display: flex;
+    height: 100vh;
+    background-color:#654597;
+    justify-content: center;
+    align-items: center;    
+}
+
+form{
+    background-color:#FCFCFF;
+    padding: 80px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px #0000004f;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+form > h1{
+    font-size: 2px; 
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.barra-horizontal{
+    background-color:#AB81CD;
+    height: 4px;
+    width: 200px;
+    border-radius: 30px;
+    
+}
+
+input{
+    padding: 10px 20px;
+    border-radius:10px ;
+    border: none;
+    background-color: #babac269;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.lembra-me{
+    display: flex;
+    gap: 5px;
+}
+
+button{
+    padding: 2px 0px;
+    align-self: center;
+    width: 150px;
+    border-radius: 30px;
+    background-image: linear-gradient(to left top, #654597, #AB81CD);
+    box-shadow: 1px 1px 1px #0000004f;
+    border: solid 1px #654597;
+    border-right: 2px;
+    border-bottom-width: 4px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    font-family: "Montserrat";
+    
+}
+
+.esqueceu-senha{
+    text-align: center;
+}
+
+.butao{
+    padding: 2px 0px;
+    text-decoration: none;
+    align-self: center;
+    width: 150px;
+    border-radius: 30px;
+    background-image: linear-gradient(to left top, #654597, #AB81CD);
+    box-shadow: 1px 1px 1px #0000004f;
+    border: solid 1px #654597;
+    border-right: 2px;
+    border-bottom-width: 4px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    font-family: "Montserrat";
+    
+}
