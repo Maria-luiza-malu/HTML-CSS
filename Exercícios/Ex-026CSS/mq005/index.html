@@ -34,6 +34,7 @@
     <script>
 
         function mudouTamanho(){
+            let itens = document.getElementById('itens');
             if(window.innerWidth >= 768){
                 itens.style.display = 'block'
             }else{
@@ -48,6 +49,8 @@
                 itens.style.display = 'block'
             }
         }
+
+        window.addEventListener('resize', mudouTamanho);
     </script>
 </body>
 </html>
